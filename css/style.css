@@ -6,11 +6,16 @@ body {
   max-width: 1170px;
   margin: auto;
 }
-.header {
+.navbar {
   display: flex;
   align-items: center;
   padding-top: 30px;
   padding-bottom: 30px;
+}
+.header {
+  min-height: 100vh;
+  background: linear-gradient(180deg, rgba(98, 20, 2, 0.31) 0%, #621402 85.62%),
+    url("../img/bg.jpg") no-repeat center top / cover;
 }
 .menu {
   list-style-type: none;
@@ -36,4 +41,31 @@ body {
   height: 33px;
   border-radius: 50%;
   margin-left: 11px;
+}
+.film {
+  margin-top: 60px;
+  color: #fff;
+}
+.film-title-small {
+  font-size: 24px;
+  line-height: 150%;
+  opacity: 0.5;
+}
+.film-title {
+  font-size: 36px;
+  line-height: 42px;
+  margin-top: 11px;
+  margin-bottom: 23px;
+}
+.film-description {
+  font-size: 16px;
+  line-height: 150%;
+  max-width: 560px;
+}
+.film {
+  display: flex;
+  align-items: center;
+}
+.film-trailer {
+  margin: auto;
 }
